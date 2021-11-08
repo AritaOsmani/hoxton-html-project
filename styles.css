@@ -11,7 +11,7 @@ a{
     text-decoration: none;
 }
 header{
-    background-color: #FEFBF3;
+    background-color: #f8f8f8;
     padding:20px;
     
 }
@@ -92,4 +92,138 @@ main{
     margin-right:5px;
     background-color:#79B4B7;
     border:none;
+}
+#features{
+    display: grid;
+    grid-template-columns: repeat(4,300px);
+    gap:30px;
+    padding:100px 20px;
+    justify-content: center;
+   background-color: white;
+}
+.feature-card{
+    display: grid;
+    gap:10px;
+    place-items: center;
+    padding:10px;
+}
+.feature-card h3{
+    font-size:1.25rem;
+}
+.feature-card p{
+    font-size:14px;
+    text-align: center;
+    color:#9D9D9D;
+}
+.feature-icon{
+    width:60px;
+}
+.learn-more{
+    border-radius: 10px;
+    background-color:#79B4B7;
+    padding:10px 15px;
+    color:white;
+    margin-top:10px;
+}
+#popular-courses{
+    display: grid;
+    gap:30px;
+    place-items: center;
+    padding:60px;
+    padding-bottom: 100px;
+    background-color: #5EAAA8;
+}
+.popular-courses-heading{
+    font-size:40px;
+    margin:0px 20px;
+    margin-bottom: 60px;
+    color:white;
+}
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3,300px);
+    grid-auto-rows: 350px;
+    gap:50px;
+}
+.course-card{
+    display: grid;
+    gap:10px;
+    border:none;
+    place-items: start;
+    background-color: white;
+    box-shadow: 0 4px 20px 0 rgba(63, 45, 45, 0.2);
+}
+.card-image{
+    width:100%;
+    
+}
+.course-title{
+    font-weight: 500;
+    margin:10px;
+}
+.review-info{
+    display: grid;
+    gap:10px;
+    padding:10px;
+    /* align-items: start; */
+}
+.review-info i{
+    color:#ffa200;
+}
+.review-info span{
+    margin-left:5px;
+    color:#6a6a6a;
+}
+.review-info p{
+    color:#9D9D9D;
+}
+#browse-courses{
+    display: grid;
+    place-items: center;
+    gap:30px;
+    padding:70px 50px;
+    background-color: #f8f8f8;
+}
+.course-categories{
+    display: grid;
+    grid-template-columns: repeat(6,200px);
+    grid-auto-rows: 200px;
+    gap:10px;
+    
+}
+.course-category{
+    display: grid;
+    place-items: center;
+    gap:10px;
+    /* border:solid 1px black; */
+    padding:30px 20px;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2);
+    background-color: white;
+}
+
+.course-category p{
+    font-size: 17px;
+    font-weight: 700;
+    text-align: center;
+}
+.category-img{
+    width:70px;
+}
+
+.course-num{
+    border-radius:10px;
+    color:#046582;
+    background-color: #f8f8f8;
+    padding:3px 7px;
+}
+.title-box{
+    display: grid;
+    place-items: center;
+    gap:5px;
+}
+.title-box h1{
+    font-size: 40px;
+}
+.title-box h4{
+    color:#046582;
 }
