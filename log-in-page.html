@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="sign-up-page-styles.css">
-    <title>Sign up</title>
+    <link rel="stylesheet" href="log-in-page-styles.css">
+    <title>Log in</title>
 </head>
 <body>
     <header>
@@ -17,8 +17,8 @@
             <li> <a href="#"> Contact</a></li>
             <li class="additional">More</li>
             <li class="additional">More</li>
-            <li class="log-in">  <a href="log-in-page.html">Log in</a> </li>
-            <li class="sign-up">  <a href="#">Sign up</a> </li>
+            <li class="log-in">  <a href="#">Log in</a> </li>
+            <li class="sign-up">  <a href="sign-up-page.html">Sign up</a> </li>
             
         </ul>
     </header>
@@ -28,26 +28,16 @@
               <div class="title-div"><h1 class="join-title">JOIN OUR COMMUNITY</h1></div>  
             </section>
         </div>
-      
-        <section id="sign-up-form">
-            <h1>Sign Up</h1>
+        <section id="login-form">
+            <h1>Log in</h1>
             <form action="">
-                <input type="text" placeholder="Full Name" required>
-                <input type="email" placeholder="Email" required>
-                <input type="text" placeholder="Public Username" maxlength="10" minlength="5">
+                <input type="text" placeholder="Username or email" required>
                 <input type="password" placeholder="Password" required>
-                <select name="" id="">
-                    <option value="" disabled hidden selected>Select Country</option>
-                    <option value="albania">Albania</option>
-                    <option value="kosovo">Kosovo</option>
-                    <option value="uk">UK</option>
-                    <option value="us">US</option>
-                </select>
-                <label for="">
-                    By creating an account, I agree with the Terms and Conditions.
-                    <input type="checkbox" required>
-                </label>
-                <button class="submit-form-button"type="submit">Create account</button>
+                <div class="form-div">
+                    <!-- <button class="login-button"type=submit>Log in</button> -->
+                    <a class="login-button" href="#">Log in</a>
+                    <a href="">Forgot password</a>
+                </div>
             </form>
             <div class="social-media-buttons">
                 <h3>Or sign up with:</h3>
