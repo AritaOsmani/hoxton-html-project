@@ -17,7 +17,7 @@ header{
 }
 header ul{
     display: grid;
-    grid-template-columns:repeat(7,auto);
+    grid-template-columns:repeat(9,auto);
     /* gap:20px; */
     padding:0 30px;
     place-items: center;
@@ -26,6 +26,9 @@ header ul li{
     display: inline-block;
     padding:0 20px;
     color:#9D9D9D;
+}
+.additional{
+    visibility:hidden;
 }
 .log-in,.sign-up{
     display: grid;
@@ -167,7 +170,7 @@ main{
     padding:10px;
     /* align-items: start; */
 }
-.review-info i{
+.fa-star{
     color:#ffa200;
 }
 .review-info span{
@@ -226,4 +229,160 @@ main{
 }
 .title-box h4{
     color:#046582;
+}
+
+#testimonials{
+    background-color: #17a2b7;
+    display: grid;
+    place-items: center;
+    gap:50px;
+    padding:80px;
+}
+.all-testimonials{
+    display: grid;
+    grid-template-columns: repeat(4,300px);
+    grid-auto-rows: 320px;
+    gap:20px;
+}
+.testimonial-cards{
+    background-color: white;
+    display: grid;
+    gap:20px;
+    padding:20px;
+    box-shadow: 5px 6px 8px 0 rgba(0, 0, 255, 0.2);
+}
+.quotes-img{
+    width:50px;
+}
+.student-info{
+    display: grid;
+    grid-template-columns: auto 100px;
+    place-items: left;
+}
+.profile-img{
+    width:100%;
+    height:80%;
+    border-radius:50%;
+    
+}
+.col-info{
+    padding:10px 0;
+    display: grid;
+}
+.testimonials-title-box{
+    display: grid;
+    place-items: center;
+    gap:5px;
+}
+
+.testimonials-title-box h1{
+    font-size: 40px;
+    color:white;
+}
+.testimonials-title-box h4{
+    color:#CFFFFE;
+}
+.student-name{
+    font-weight: 700;
+}
+
+#upcoming-courses{
+    display: grid;
+    place-items: center;
+    gap:50px;
+    padding:80px;
+}
+.upcoming{
+    display: grid;
+    grid-template-columns: repeat(3,300px);
+    grid-auto-rows: 350px;
+    gap:30px;
+}
+.upcoming-title-box{
+    display: grid;
+    place-items: center;
+    gap:5px;
+}
+.upcoming-title-box h1{
+    font-size: 40px;
+    color:#17a2b7;
+}
+.upcoming-title-box h4{
+    color:#046582;
+}
+#subscribe{
+    display: grid;
+    /* grid-template-columns:500px auto; */
+    place-content: end;
+    padding:100px;
+    background-color: #0A1931;
+    background-image: url(https://images.pexels.com/photos/3205538/pexels-photo-3205538.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: start;
+    
+}
+.sub-info{
+    display: grid;
+    gap:10px;
+    place-items: center;
+    margin-right: 250px;
+   
+}
+.sub-info h3{
+    font-size:28px;
+    margin-bottom: 20px;
+    color:white;
+}
+.sub-info p{
+    font-size:17px;
+    margin-bottom: 20px;
+    color:#EDEDED;
+}
+.sub-img{
+    width:100%;
+}
+.email-input{
+    display: grid;
+    gap:5px;
+    grid-template-columns: repeat(2,auto);
+}
+.email-field{
+    border:none;
+    border-bottom: solid 1px rgba(255, 255, 255, 0.2);
+    background-color:transparent;
+    outline: none;
+    font-size: 14px;
+    padding-left:25px;
+}
+.email-field::placeholder{
+    color:white;
+    opacity: 0.5;
+}
+.sub-button{
+    border:solid 1px white;
+    padding:10px 20px;
+    font-size:14px;
+    background-color: transparent;
+    color:white;
+    border-radius: 30px;
+}
+.sub-button:hover{
+    background-color: white;
+    color:black;
+}
+footer{
+    display: grid;
+    gap:20px;
+    padding:50px;
+    place-items: center;
+}
+.social-media{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    gap:10px;
+}
+.follow{
+    font-size:20px;
+    font-weight: 700;
 }
