@@ -119,6 +119,7 @@ select{
     color:white;
     font-size: 17px;
     margin-bottom: 10px;
+    border:none;
 }
 .social-media-buttons{
     display: grid;
