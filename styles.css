@@ -127,6 +127,7 @@ main{
 }
 .feature-card{
     display: grid;
+    grid-template-rows: auto auto 30px auto;
     gap:10px;
     place-items: center;
     padding:10px;
