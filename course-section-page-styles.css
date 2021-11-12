@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&family=Roboto:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 *{
     margin:0;
     padding: 0;
@@ -31,6 +32,11 @@ header ul li{
     padding:0 20px;
     color:#787A91;
     font-family: 'Lato', sans-serif;
+}
+.brand{
+    font-family: 'Anton', sans-serif;
+    font-size:30px;
+    color:#046582;
 }
 header ul li:hover{
     transform: scale(1.1);
